@@ -191,17 +191,6 @@ Use this to determine:
 - build version
 - compatibility
 
-The analyzer is primarily designed for Elasticsearch 8.14.x.
-
-If the cluster version differs, display:
-
-Detected Elasticsearch version: X
-
-This analyzer was designed for Elasticsearch 8.14.x.
-Some metrics/APIs/settings may differ.
-
-Do not silently assume version compatibility.
-
 ---
 
 4. Cluster Overview APIs
