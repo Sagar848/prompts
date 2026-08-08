@@ -8,13 +8,13 @@ The tool connects to an Elasticsearch cluster using a user-provided URL and cred
 
 The primary use case is a large Elasticsearch cluster with:
 
-- 90 total nodes
+- ~100 total nodes
 - 3 dedicated master nodes
 - 3 coordinating-only nodes
-- 48 hot data nodes
-- 36 warm data nodes
-- Hot nodes have 16 CPU cores, 64 GB RAM, ~31 GB Elasticsearch heap and 5 TB disks
-- Warm nodes have 16 CPU cores, 64 GB RAM, ~31 GB Elasticsearch heap and 13 TB disks
+- ~50 hot data nodes
+- ~40 warm data nodes
+- Hot nodes have 16 CPU cores, 64 GB RAM, ~31 GB Elasticsearch heap and ~5 TB disks
+- Warm nodes have 16 CPU cores, 64 GB RAM, ~31 GB Elasticsearch heap and ~15 TB disks
 - Hot nodes also have the ingest role
 - 1 replica
 - ~25,000 indices
