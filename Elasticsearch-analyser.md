@@ -117,7 +117,6 @@ Recommended stack:
 
 Backend:
 
-- Go preferred
 - Elasticsearch REST client or clean HTTP client
 - concurrent API collection
 - structured internal data model
@@ -126,7 +125,8 @@ Backend:
 
 Frontend:
 
-- React/TypeScript preferred
+- simplistic modern and minimal ui
+- light and dark mode feature
 - charts and tables
 - sortable/filterable node and shard views
 
